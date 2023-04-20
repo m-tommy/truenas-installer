@@ -53,7 +53,7 @@ wait_keypress()
 }
 
 # Constant media size threshold for allowing swap partitions.
-: ${MIN_SWAPSAFE_MEDIASIZE:=$((60 * GB))}; readonly MIN_SWAPSAFE_MEDIASIZE
+: ${MIN_SWAPSAFE_MEDIASIZE:=$((31 * GB))}; readonly MIN_SWAPSAFE_MEDIASIZE
 
 # Check if it is safe to create swap partitions on the given disks.
 #

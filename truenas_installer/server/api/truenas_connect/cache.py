@@ -8,10 +8,6 @@ def default_tnc_config() -> dict:
     return {
         'jwt_token': None,
         'registration_details': {},
-        'ips': [],
-        'interfaces': [],
-        'interfaces_ips': [],
-        'use_all_interfaces': True,
         'csr_public_key': None,
         'certificate_public_key': None,
         'certificate_private_key': None,
